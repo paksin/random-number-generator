@@ -111,7 +111,7 @@ render = () => {
 
 render();
 
-const audio = new Audio("./tada.mp3");
+const audio = new Audio("./asset/tada.mp3");
 
 function generator() {
   document
