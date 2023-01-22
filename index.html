@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Random Number Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-body">
+          <div class="inputbox">
+            <label for="upper-limit"
+              >Please define an upper limit. (1 to ?) </label
+            ><input type="text" name="upper-limit" id="upperlim" />
+          </div>
+
+          <div class="genbtn">
+            <a id="generate" class="btn">
+              <img src="./random.png" alt="start-button" height="100" />
+            </a>
+          </div>
+          <div id="result"></div>
+          <div id="prevresult"></div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <p>© 2023 Pak Sin. All rights reserved</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
